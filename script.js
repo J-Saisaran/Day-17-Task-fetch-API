@@ -17,7 +17,7 @@ function foo(data1) {
     var x = data1[i];
     var col = document.createElement("div");
     col.className = "col-lg-4";
-    col.innerHTML = `<div class="card border-primary mb-3" style="max-width: 18rem; text-align: center;background: linear-gradient(90deg,rgb(231, 234, 187),grey);">
+    col.innerHTML = `<div class="card border-primary mb-3" ">
         <div class="card-header" style="background-color: black;color: white;">${x.name.common}</div>
         <div class="card-body text-primary " >
           
