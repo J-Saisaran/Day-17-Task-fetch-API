@@ -31,7 +31,5 @@ function foo(data1) {
   }
   container.append(row);
   document.body.append(container);
-  console.log(data1)
-
 }
 
