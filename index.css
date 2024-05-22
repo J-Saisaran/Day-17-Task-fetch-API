@@ -1,0 +1,13 @@
+.container{
+    margin-top: 20px;
+}
+
+img{
+    height: 80px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+p{
+    color: white;
+    margin-bottom: 3px;
+}
