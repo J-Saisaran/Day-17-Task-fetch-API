@@ -17,19 +17,22 @@ function foo(data1) {
     var x = data1[i];
     var col = document.createElement("div");
     col.className = "col-lg-4";
-    col.innerHTML = `<div class="card border-primary mb-3" ">
-        <div class="card-header" style="background-color: black;color: white;">${x.name.common}</div>
-        <div class="card-body text-primary " >
-          
+    col.innerHTML = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    
+    <div class="card-body">
+    </div>
+ 
+          <img src="${x.flags.png}">
           <p>Capital: ${x.capital}</p>
           <p>Region: ${x.region}</p>
           <p>Country-Code: ${x.cca3}</p>
         </div>
-       
+    
       </div>`;
     row.append(col);
   }
   container.append(row);
   document.body.append(container);
-}
+  console.log(data1)
 
+}
